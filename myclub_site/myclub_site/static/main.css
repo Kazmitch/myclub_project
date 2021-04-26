@@ -116,3 +116,6 @@ input {
     border: 1px solid green;
     border-radius: 3px;
 }
+.required label:after {
+    content: "*";
+}
